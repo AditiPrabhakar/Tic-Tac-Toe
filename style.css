@@ -8,6 +8,12 @@ body{
     text-align: center;
 }
 
+h1{
+    margin-top: 4vmin;
+    font-size: 8vmin;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .container{
     height: 70vh;
     display: flex;
@@ -36,6 +42,7 @@ body{
     background-color: #EAF9D9;
 }
 
+#new-btn,
 #reset-btn{
     padding: 1rem;
     font-size: 1.25rem;
@@ -43,4 +50,28 @@ body{
     color: #fff;
     border-radius: 1rem;
     border: none;
+}
+
+#msg{
+    color: #941C2F;
+    font-size: 8vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hide{
+    display: none;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
